@@ -1,0 +1,76 @@
+//Pensamento Computacional
+Não se restringe ao meio computacional.
+Processo de pensamento que visa uma solução, ao qual seguirá uma série de passos necessários para passar pelas etapas do processo, atingindo o objetivo final.
+Samples: 
+Matemática -> Fórmulas matemáticas, como bhascara, onde seu fluxo de resolução leva ao objetivo final.
+Leitura -> Identificar principais partes de um texto, criando as conexões e entendendo o conteúdo e contexto do mesmo.
+Escrita -> Estruturação textual, gerando compreensão ao leitor.
+
+
+//4 Pilares do pensamento computacional
+
+
+Decomposição - Segmentar um problema com certo grau de complexidade, resolvendo suas pequenas partes antes de resolver o todo, realizando assim uma síntese de forma coerente.
+Samples:
+-Receita de Bolo = Massa, Recheio, Cobertura - Como fazer cada um - Unir de forma coerente;
+
+-Quebra Cabeças =  Separar peças em grupos de cor, formas, aproximando-as, montando pequenas imagens - Unir pequenos grupos seguindo a coerência de imagens - Montar o Quebra cabeçlas completo;
+
+-Busca Binária (Computação) = Buscando um vetor (lista; estrutura que possua uma sequência), encontra-se um valor, compara-se ao valor desejado, se maior, seguir a cima (na lista) se menor, seguir abaixo (na lista);
+
+-Pode ser realizada a resolução sequêncial, onde pequenos estágios do processo devem ser realizados de forma sequencial, utilizado quando a ordem dos fatores alteram o produto.
+-Pode ser realizada a resolução em paralelo com os pequenos estágios do processo, deve ser usado quando a ordem sequencial dos fatores não altera o produto, onde podem ser unidas seguindo uma sequência lógica.
+
+
+Reconhecimento de padrões - Busca de similaridades, distinções, tendências, exclusões se algo, logo.., padrão comportamental;
+Samples:
+-Modelo Base, Estrutura invariante, Repetição
+
+-Compressão de dados, por exemplo, aglomera determinado número de dados em um unico espaço, fazendo o processo reverso para descompactar.
+
+-Grau de Similaridade; Classes e Categorias
+
+-Um computador reconhece padrões por base de comparação, caso não haja dado inserido para comparação, não pode existir a subjetividade.
+
+-Aplicações: Classificação de dados, Reconhecimento de imagem, Reconhecimento de fala, Análise de Cenas, Classificação de documentos
+
+
+Abstração - Extrapolar o coneceito de um problema para um modo generalista. Sample: fórmula para encontra o raio de uma circunferência - criar uma interface de usuário utilizando, por exemplo, a regra de ouro, de forma a encaixar em
+três interfaces de dispositivos diferentes (celular, tablet e computador);
+Samples: 
+-Processo de abstração: 
+*Abstrair - Observar um ou mais elementos, avaliando características e propriedades separadamente.
+*Abstração - Processo intelectual de isolamento de um objeto da realizade.
+*Generalizar - Tornar de uso comum/geral.
+
+-Abstração traz os dados relevantes, àquilo que torna algo em si por sua 'essência', descartando detalhes que não mudem aquilo que se é.
+
+
+Design de Algoritmos - Passo a passo para a solução do problema, seguinto um fluxo em prol de determinar a solução. Dada uma entrada, operações são realizadas e será gerada o resultado.
+-Vinculado a instruções, step by step.
+-Estudo e definição dos dados de entrada e saída.
+-Descreve o problema por meio de narrativas ou códigos, que seguidos em uma sequência, entrega o resultado esperado.
+-Narrativa, Fluxograma, Pseudocódigo
+
+//Overview - Processo Contínuo - Definir uma solução - Testar a solução - Aperfeiçoamento da solução encontrada
+
+
+//Raciocínio Lógico
+Indução - Fenômeno Observado - Experimentação
+Dedução - Previsões ou explicações para um determinado fenômeno. Provar por A + B que determinado acontecimento é por conta de:
+Abdução - Estabelecimento de premissas falseáveis
+
+
+Inferência <->
+Sintética: Abdução e Indução
+Analítica: Dedução
+
+
+//Aperfeiçoamento de Códigos
+Encontrar solução eficiente - Melhor uso de recursos
+Otimizar processos - Melhor uso de recursos
+Simplificar linhas de código - Melhorar códigos e algoritmos
+Funções bem definidas - Melhorar codigos e algoritmos
+
+
+

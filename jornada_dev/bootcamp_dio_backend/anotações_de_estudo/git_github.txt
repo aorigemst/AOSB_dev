@@ -1,0 +1,60 @@
+*SHA1 - Algorítmo de encriptação - Secure Hash Algotithm - Gera um conjunto de caracteres de 40 dígitos à cada alteração. Caso haja um rollback, ele retorna para
+o mesmo estado anterior.
+
+Sample: aruivo sha1_encrip.txt
+Considere linha 01 como "Encriptação através do openssl sha1 - git"
+
+
+Encriptação através do openssl sha1 - git 
+
+Arquivo escrito apenas a primeira linha - bash5a2cfa9605b1bd56880fd1677adb3f95d6f0aada
+Arquivo adicionado à primeira chave de encriptação - 25cd25bb7b08eb745f574da3a064fc1a9b53bd6f
+
+O arquivo retorna a primeira encriptação quando retornado ao primeiro estado, salvo e encriptado novamente.
+
+Logo, a hash é inteiramente ligada aos caracteres ou mínimas alterações realizadas no arquivo.
+
+
+Objetos Git
+
+Blobs - Bloco básico de composição - Contém metadados - Tipo do objeto, Tamanho do arquivo, \o, conteúdo
+Sample: Git Bash 
+Os metadados contidos dentro de um objeto blob fazem com que a hash, se excutada diretamente pelo sha1, seja diferente.
+No exemplo de comando 1, estamos criando a hash de um objeto blob, contendo os metadados listados acima.
+No exemplo de comando 2, tentamos criar a hash diretamente pelo sha1. A hash nçao é compatível pois os metadados não foram inseridos.
+No exemplo de comando 3, inserimos os metadados do objeto blob à string, e o resultado da hash se iguala ao primeiro
+
+echo 'conteudo' | git hash-object --stdin
+fc31e91b26cf85a55e072476de7f263c89260eb1
+
+echo -e 'conteudo' | openssl sha1
+65b0d0dda479cc03cce59528e28961e498155f5c
+
+echo -e 'blob 9\0conteudo' | openssl sha1
+fc31e91b26cf85a55e072476de7f263c89260eb1
+
+
+Trees - Contém metadados - Armazenam blobs - Aponta para um blob ou outras árvores - Contém o nome do arquivo - Responsável por montar a estrutura - Detém um sha1
+referente à toda a árvore, logo, o sha1 de Trees é alterado por qualquer alteração em qualquer blob ou subtrees dentro deste.
+
+
+Commits - Dá significancia para toda a estrutura - Carrega informações de tree, parente, autor, mensagem e timestamp
+
+
+**Autenticação SSH e Tokens
+Chave SSH-Conexão segura e encriptada 
+Chave SSH gera uma conexão direta de segurança entre o Desktop configurado e o repositório do Github (no caso)
+Tokens de segurança contém data de expiração. Um arquivo de token é criado e deve ser guardado no Desktop. A cada solicitação entre o repositório e o Desktop, o e-mail e senha (no caso o token) são solicitados. Utiliza o protocolo
+de comunicação HTTPS - Utiliza o Git Credential Manager Core para validar os acessos
+
+
+**Comandos Git
+Inicialização de repositório:
+Navegar até a pasta onde o repositório será iniciado
+git init 
+Configurando repositório
+git config --global user.email "email@email.com"
+git config --global user.name "user_name"
+
+
+

@@ -1,0 +1,49 @@
+**O Hardware limita a capacidade do Software - evolução dos instrumentos computacionais (não necessariamente um computador e seus componentes, mas sim um hardware responsável por resolver, por exemplo, cálculos matemáricos)
+
+Assembly - Linguagem de máquina
+Cobol
+Fortran
+Lisp
+
+**Código Fonte - Tradução ou Interpretação
+Compilador - Traduz o código de alto nível em baixo nível, tranformando em 'Programa Objeto'.
+Interpretação - Código fonte executado diretamente, sendo mais lento. Não tranforma em Programa Objeto.
+
+*Transpilação - Linguagem de alto nível para uma de mais baixo nível.(pouco a baixo)
+
+Diretrizes para codificação
+-Legibilidade - Boa leitura, Compreensão, Definição adequada das estruturas
+-Redigibilidade - Pode conflitar com a legibilidade, Simplicidade da escrita, Suporter a abstração, Reuso do código, Expressividade
+-Confiabilidade - Verificação de tipos, Trata exceções, Uso de ponteiros, Compatibilidade entre compitadores
+-Caracteristicas - Analise de impacto - Treinamento, Codificação, Compilação, Execução, Infraestrutura
+
+**Compilador - Funcionamento 
+Análise Léxica: Particionar(Elementos denominados Tokens, agrupando-os), Classificar(Identificadores, palavras reservadas, números, Strings), Eliminar(Caracteres em branco, comentários e conteúdos não pertinentes ao programa objeto.
+Sintaxe do programa - padrão de escrita
+Análise semântica - lógica do programa, quando utilizado a sintaxe corretamente mas não ha o retorno esperado, sendo necessario um debug do programa, por exemplo
+
+**Paradigma - regras para resolução de um problema
+-POO - Programação Orientada a Objeto - Análogo ao mundo real, baseado em objetos e suas interações: Separados por Classes
+-Procedural - Chamadas sucessivas e procedimentos separados
+-Funcional - Instruções baseadas em funcões
+-Estruturado - Estrutura de blocos alinhados, sequência, decisão, interação: Linguagem C
+-Computação distribuída - Funções executadas de forma independente
+-Lógico - 
+
+Exemplo: Objeto Carro
+O que ele possui - Atributos: Cor, Peso, Tamanho, Modelo
+O que é capaz de fazer - Métodos: Locomover, Acelerar, Frear
+Como ele faz - Estados: Ligado, Desligado, Com um piloto
+
+POO - Pilares de Orientação a Objeto (Bom para reuso de códigos)
+-Herança: Classe filha herda características da classe mãe, possuindo também características proprias, com comportamentos específicos
+-Encapsulamento
+-Polimorfismo
+-Abstração
+
+Paradigma Estruturado (Problemas específicos e diretos)
+
+
+
+
+

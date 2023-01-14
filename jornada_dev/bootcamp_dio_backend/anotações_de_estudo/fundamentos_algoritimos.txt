@@ -1,0 +1,82 @@
+*Variáveis - Estrutura mutável com variação de valor e inconstante. Vinculadas aos tipos de dados recebidos.
+-Informações: Dados (Objetos de manipulação e de processamento) - Instruções (normativas e diretivas utilizadas para executar o processamento de dados)
+-Tipos: 
+ --Numéricos: Inteitos e Reais
+ --Caracter: Textuais
+ --Booleano: Verdadeiro(1) e Falso(0)
+ *Variáveis de ação - Modificação de estado do algoritimo
+ *Variáveis de controle - Utilizada para controle de uma estrutura algorítimica
+ 
+ *Constante - Mantém-se a mesma, a menos que seja alterada
+ -Inalterável por si
+ -Invariável
+ -O que não muda
+ -Uma variável pode receber uma constante, de forma a receber um valor fixo ou receber uma variável que seja aplicada a uma constante definida
+ 
+ *Instruções Primitivas
+ -Operadores: Binário ou Unário
+
+ *Estrutura condicional
+ 
+ -Dado um estado, suposição ou hipótese (condição sendo satisfeita), a tarefa é executada, se não, temos uma exceção.
+ 
+ -Estrutura Condicional Simples: Condição -> Operação
+ 
+ -Estrutura Condicional Composta: Condição -> Operação
+                                           -> exceção
+ 
+ -Estrutura Condicional Encadeada: Condição -> Operação
+                                            -> Condição
+                                                 -> Operação
+                                                 -> Exceção
+
+*Operadores Relacionais
+==
+<>
+<
+>
+>=
+<=
+
+*Operadores Lógicos
+-AND - retorna verdadeiro se as duas entradas forem verdadeiras
+-OR - retorna verdadeiro se pelo menos uma das entradas for verdadeira (uma OU outra)
+- NOT -  simplesmente inverte o resultado, ou seja, se a entrada for verdadeira ela retorna falsa e vice-versa.
+
+AND
+ENTRADA 1	ENTRADA 2	RESULTADO
+1 (verdadeiro)	1 (verdadeiro)	1 (verdadeiro)
+1 (verdadeiro)	0 (falso)	0 (falso)
+0 (falso)	0 (falso)	0 (falso)
+0 (falso)	1 (verdadeiro)	0 (falso)
+
+OR
+ENTRADA 1	ENTRADA 2	RESULTADO
+1 (verdadeiro)	1 (verdadeiro)	1 (verdadeiro)
+1 (verdadeiro)	0 (falso)	1 (verdadeiro)
+0 (falso)	0 (falso)	0 (falso)
+0 (falso)	1 (verdadeiro)	1 (verdadeiro)
+
+NOT
+ENTRADA 1	RESULTADO
+1 (verdadeiro)	0 (falso)
+0 (falso)	1 (verdadeiro)
+
+*Estruturas de Repetição
+-Trecho de um programa que é chamado: Enquanto ... faça : Repita ... até : Para ... de ... até ... faça
+
+
+*Vetores e Matrizes
+-Vetor é caracterizado por uma variavel dimensionada com tamanho pré-fixado: Container, Matriz unidimensional - Recebe valores em forma de container
+-Matriz é uma tabela organizada em linhas e colunas no formato M x N -> M = Número de linhas (horizontal) N = Número de colunas (vertical) - Coleção de Variáveis Organizadas em Tabela; Coleção de Vetores; Contíguas em memórias (armazenadas juntas à memória)
+
+*Funções
+-Blocos de instruções (código), identificados por nomes e parâmetros.
+  -Definição
+  -Nome 
+  -Invocação
+  -Variável local: São 'destruídas' ao encerrar a função'
+
+*Instruções de entrada e saída
+-Saída programada: Condicional ou não. Quando condicional, aguarda o dispositivo para impressão.
+-Saída por interrupção: Definida pelos periféricos, interrompendo a execução e imprimindo uma saída.

@@ -1,0 +1,21 @@
+*Técnica Linear
+-Modelo Tradicional
+-Não tem vínculo
+-Estrutura Hierárquica
+-Programação de Computadores
+*Execução sequenciada de uma série de operações. Única dimensão e recursos limitados, contendo uma dependência entre sí.
+
+*Técnica Estruturada
+-Objetivo - Processamento de dados
+   ---Escrita
+   ---Entendimento
+   ---Validação
+   ---Manutenção
+*Execução sequênciada onde existem opções a serem sequidas. Mais complexidade e mais opções.
+
+*Técnica Modular
+-Partes independentes controladas por um conjunto de regras.
+-Simplificação
+-Decomposição do problema
+-Verificação de módulos independentes
+   
