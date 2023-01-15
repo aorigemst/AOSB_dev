@@ -29,16 +29,24 @@ _**Multi-thread**_
 - Nome dado ao processo de vários threads sendo executados simultaneamente.
 - Thread é um subprocesso leve e independente de um programa em execução (ou seja, processo) que compartilha recursos.
 
-### Timeline evoluções importantes nas versões java
+## Timeline evoluções importantes nas versões java
 
 1. J2SE 5.0 - Introdução dos Genérics, Enumeração, Autoboxing, for-eac, entre outros.
 2. Java SE 8 - Expressões Lambdas; foreach, Consumer e interfaces no java.util.functions; Default methods; Method references
 3. Java SE 11 - Leitura e escrita de strings em arquivos: readString(), writeString(); Manipulação de cordas: repeat, strip, stripLeading, stripTrailing, lines e isBlank
 
 
+## Anatomia das Classes
+- Estrutura Inicial
+- Padrão de nomenclatura
+- Declarando Variáveis e Métodos
+- Identação
+- Organizando Arquivos
+- Java Beans
 
-
-
+1. Sintaxe de declaração de uma nova classe: `public class MyClass {
+//código aqui
+}`
 
 
 
