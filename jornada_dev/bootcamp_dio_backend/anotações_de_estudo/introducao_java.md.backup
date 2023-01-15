@@ -44,9 +44,13 @@ _**Multi-thread**_
 - Organizando Arquivos
 - Java Beans
 
-1. Sintaxe de declaração de uma nova classe: `public class MyClass {
+1. Sintaxe de declaração de uma nova classe:  
+  
+  public class MyClass { 
+
 //código aqui
-}`
+
+  }
 
 
 
