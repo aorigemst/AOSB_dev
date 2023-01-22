@@ -55,14 +55,32 @@ _**Multi-thread**_
   
   Se a Classe é uma classe executável, realizando uma inicialização dentro do projeto, pro exemplo, ela precisa de um método especial, um método principal, método `main`. sendo criado como   
     
-    `public static void main (String[] args)`
+    `public static void main (String[] args){}`
   
   **void -> apenas executa sem retornar nada; espera um parâmetro especial do tipo String; parâmetro de array args; corpo representado por {}**
 
-2. Em todas as classes, as primeiras letras de cada palava e subpalavra deverão ser maúsculas: Sample - MyClass.java
+1. Em todas as classes, as primeiras letras de cada palava e subpalavra deverão ser maúsculas: Sample - MyClass.java
+2. O arquivo .java deve conter o mesmo nome da classe
 3. Toda Classe precisa existir dentro do diretório src do projeto
-4. 
+4. Toda variável deve ser escrita com letra minúscula. Sendo uma palavra composta a segunda letra deve ser maiúscula, conceito chamado de "camelCase"
+5. Variáveis que não sofrerão alternância de valor:   
+         
+         `final String BR = "Brasil";`
+         double PI = 3.14
+         int ESTADOS_BRASILEIROS = 27
+         Adiciona-se à frente a palavra reservada "final",  
+         com o nome da variável maíuscula "convenção uppercase"
 
-
-
-
+6. Variáveis não devem iniciar com números ou conter espaços
+7. Unicos caracteres aceitos em variáveis são _ e $  
+       
+         Estrutura de declaração de variável
+          String nomeDaEmpresa = "HBTech"
+          (Tipo) (nome da var bem definido) = "(atribuição da var)"    
+8. Métodos   
+Diferentemente das variáveies, os métodos trazem um conglomerado de padrões atrelados para executar determinada tarefa ou trazer determinado retorno esperado.  
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+int somar (int numeroUm, int numeroDois)
+String formatarCep (long cep)
+9. Identação  
+Não infere nas funcionalidades do programa, é apenas uma forma hireárquica de estruturação (tabulação) do programa afim de facilitar a leitura dos códigos. Idealmente até 6 níveis de hierarquia.
