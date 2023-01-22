@@ -91,3 +91,6 @@ Não infere nas funcionalidades do programa, é apenas uma forma hireárquica de
 2. (-) Operador unário de valor negativo - nega um número ou expressão aritmética
 3. (++) Operador unário de incremento de valor - incrementa o valor em 1 unidade
 4. (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade
+
+
+comment
