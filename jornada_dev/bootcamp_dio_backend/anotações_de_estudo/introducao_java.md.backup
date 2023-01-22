@@ -63,6 +63,13 @@ _**Multi-thread**_
 2. O arquivo .java deve conter o mesmo nome da classe
 3. Toda Classe precisa existir dentro do diretório src do projeto
 4. Toda variável deve ser escrita com letra minúscula. Sendo uma palavra composta a segunda letra deve ser maiúscula, conceito chamado de "camelCase"
+5. camelCase 
+- MinhaClasse - > Classe ou Interface
+- meuAtributo - > nomeAluno (atributo)
+- minhaVariavel - > mediaPrimeiroBimestre
+- meuMetodo - > lancarNotaAluno
+- meu_pacote - > alunosbootcampdio
+- MINHA_CONSTANTE - > Val
 5. Variáveis que não sofrerão alternância de valor:   
          
          `final String BR = "Brasil";`
@@ -91,3 +98,6 @@ Não infere nas funcionalidades do programa, é apenas uma forma hireárquica de
 2. (-) Operador unário de valor negativo - nega um número ou expressão aritmética
 3. (++) Operador unário de incremento de valor - incrementa o valor em 1 unidade
 4. (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade
+
+
+comment

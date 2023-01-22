@@ -63,6 +63,13 @@ _**Multi-thread**_
 2. O arquivo .java deve conter o mesmo nome da classe
 3. Toda Classe precisa existir dentro do diretório src do projeto
 4. Toda variável deve ser escrita com letra minúscula. Sendo uma palavra composta a segunda letra deve ser maiúscula, conceito chamado de "camelCase"
+5. camelCase 
+- MinhaClasse - > Classe ou Interface
+- meuAtributo - > nomeAluno (atributo)
+- minhaVariavel - > mediaPrimeiroBimestre (Variável)
+- meuMetodo - > lancarNotaAluno (Método)
+- meu_pacote - > alunosbootcampdio (pacote)
+- MINHA_CONSTANTE - > Valor de Pi
 5. Variáveis que não sofrerão alternância de valor:   
          
          `final String BR = "Brasil";`
