@@ -84,3 +84,10 @@ int somar (int numeroUm, int numeroDois)
 String formatarCep (long cep)
 9. Identação  
 Não infere nas funcionalidades do programa, é apenas uma forma hireárquica de estruturação (tabulação) do programa afim de facilitar a leitura dos códigos. Idealmente até 6 níveis de hierarquia.
+
+## Operadores
+
+1. (+) Operadores unário de valor positivo - números são positivos sem esse operador explicitamente
+2. (-) Operador unário de valor negativo - nega um número ou expressão aritmética
+3. (++) Operador unário de incremento de valor - incrementa o valor em 1 unidade
+4. (--) Operador unário de decremento de valor - decrementa o valor em 1 unidade
