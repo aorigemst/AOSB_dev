@@ -13,7 +13,7 @@
 
 - Atendimento de chamados técnicos N1 e integração com equipes N2 para realização de Troubleshoots.
 - Suporte N1 Terminal Service.
- - Detecção e resolução de demandas diárias dando suporte à impressoras de rede, dispensários eletrônicos, desktops e notebooks.
+- Detecção e resolução de demandas diárias dando suporte à impressoras de rede, dispensários eletrônicos, desktops e notebooks.
 - Controle de parque de máquinas e patrimônio, realizando avaliação para descarte de ativos.
 - Suporte N1 a sistemas hospitalares.
 - Acesso à modificação de arquivos de alto impacto para resolução de chamados.
