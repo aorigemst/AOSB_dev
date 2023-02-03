@@ -66,10 +66,10 @@ _**Multi-thread**_
 5. camelCase 
 - MinhaClasse - > Classe ou Interface
 - meuAtributo - > nomeAluno (atributo)
-- minhaVariavel - > mediaPrimeiroBimestre
-- meuMetodo - > lancarNotaAluno
-- meu_pacote - > alunosbootcampdio
-- MINHA_CONSTANTE - > Val
+- minhaVariavel - > mediaPrimeiroBimestre (Variável)
+- meuMetodo - > lancarNotaAluno (Método)
+- meu_pacote - > alunosbootcampdio (pacote)
+- MINHA_CONSTANTE - > Valor de Pi
 5. Variáveis que não sofrerão alternância de valor:   
          
          `final String BR = "Brasil";`
